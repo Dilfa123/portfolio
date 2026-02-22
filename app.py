@@ -36,7 +36,7 @@ def send_email():
 
         resend.Emails.send({
             "from": "onboarding@resend.dev",
-            "to": "dilfarasheed5@gmail.com",
+            "to":"dilfakottayil@gmail.com",
             "subject": f"New Portfolio Message from {name}",
             "html": f"""
                 <h3>New Portfolio Message</h3>
