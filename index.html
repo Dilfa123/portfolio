@@ -15,9 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- PyScript Next Generation -->
-  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+ 
 </head>
 
 <body>
@@ -231,7 +229,7 @@
                     </div>
                 </div>
 
-                <form class="contact-form reveal" id="contactForm" py-submit="submit_form">
+                <form class="contact-form reveal" id="contactForm">
                     <div class="form-group">
                         <input type="text" name="name" placeholder="Your Name" required id="name">
                     </div>
@@ -254,7 +252,7 @@
             <i class="fas fa-check-circle"></i>
             <h2>Message Sent!</h2>
             <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
-            <button class="btn btn-primary" id="closeModal" py-click="close_modal">Close</button>
+            <button class="btn btn-primary" id="closeModal">Close</button>
         </div>
     </div>
 
