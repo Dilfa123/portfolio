@@ -46,7 +46,7 @@ def send_email():
             """
         })
 
-        return jsonify({"status": "success", "message": "Email sent successfully"}), 200
+        return jsonify({"status": "success", "message": "NEW VERSION RUNNING"}), 200
 
     except Exception as e:
         print("Error:", e)
