@@ -65,5 +65,7 @@ def send_email():
         print(f"General Error: {e}")
         return jsonify({"status": "error", "message": "Backend error occurred."}), 500
 
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
